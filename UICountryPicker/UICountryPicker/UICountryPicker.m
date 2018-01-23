@@ -113,7 +113,7 @@
         [cell.imageView setContentMode:UIViewContentModeScaleAspectFit];
         
         /**Create label to show country code*/
-        CGRect codeLblFrame             = CGRectMake(cell.frame.size.width - 10, 15, 60, 22);
+        CGRect codeLblFrame             = CGRectMake(tableView.frame.size.width - 70, 15, 60, 22);
         UILabel *countryCodeLbl         = [[UILabel alloc] initWithFrame: codeLblFrame];
         countryCodeLbl.font             = [UIFont systemFontOfSize:16 weight:UIFontWeightLight];
         countryCodeLbl.textAlignment    = NSTextAlignmentRight;
